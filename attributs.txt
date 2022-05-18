@@ -1,0 +1,21 @@
+=========
+les attributs
+
+il y a des attributs génériques : qui s'appliquent à tous les elements
+
+<p class="para1" id="p1">Un paragraphe</p>
+
+attribut specifique href 
+
+        <a href="https://www.google.com" target="_blank" title="Lien vers Google"> Lien vers Google </a>
+
+alt shif f formatage auto
+
+controle s sauvegarder
+
+controle z retour
+
+<!--Writeyourcommentshere-- repaire
+
+
+
