@@ -1,0 +1,229 @@
+<label for="cars">choisir une voiture:</label>
+            <select id="cars" name="cars" required>
+                <option value="">Veuillez choisir</option>
+                <option value="volvo">Voiture Volvo</option>
+                <option value="saab">Voiture Saab</option>
+                <option value="fiat" selected>Voiture Fiat</option>
+                <option value="audi">Voiture Audi</option>
+            </select>
+
+
+le champ value est obligatoire pour recuperer dans le serveur
+
+ 
+<input id name value /formulaire/
+
+ancre/signet est un lien interne dans la meme page
+
+les liens internes 
+creer un paragraphe et lui donner l'id"descritpion"
+       <p id="description">
+Lorem ipsum dolor sit,
+    </p>
+
+pour creer un lien vers cet element je cree une balise a dont l'attribut href contient# + l'id de l'element cible
+ <a href="#description">lien vers paragraphe de description</a>
+
+(div>h2+(p>lorem)3+a)10 formule 
+
+<!DOCTYPE html>
+<html lang="fr">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Chapitres</title>
+	</head>
+	<body id="sommaire">
+
+		<a href="#chp1">chapitre 1</a><br />
+		<a href="#chp2">chapitre 2</a><br />
+		<a href="#chp3">chapitre 3</a><br />
+		<a href="#chp4">chapitre 4</a><br />
+		<a href="#chp5">chapitre 5</a><br />
+		<a href="#chp6">chapitre 6</a><br />
+		<a href="#chp7">chapitre 7</a><br />
+		<a href="#chp8">chapitre 8</a><br />
+		<a href="#chp9">chapitre 9</a><br />
+		<a href="#chp10">chapitre 10</a><br />
+
+		<div id="chp1">
+			<h2>chapitre 1</h2>
+			<p>
+				Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, cupiditate. Necessitatibus ut nostrum possimus reiciendis ipsum quo
+				libero eius, neque voluptatum minima nobis fuga deserunt quisquam? Dolorum consectetur accusamus iusto.
+			</p>
+			<p>
+				Nostrum libero quaerat corrupti nam? Facilis blanditiis repudiandae inventore explicabo. Dolorum nihil sed, officia qui accusamus hic
+				placeat ullam dicta totam quia debitis perferendis ipsa explicabo aut voluptas possimus unde?
+			</p>
+			<p>
+				Assumenda, asperiores quibusdam officia vero exercitationem et amet voluptatum tempore alias dicta adipisci aut, optio laboriosam
+				accusamus, maiores a facere distinctio tempora ad minus iste? Nostrum laborum voluptatibus quaerat commodi!
+			</p>
+			<a href="#sommaire">haut de page</a><br />
+		</div>
+
+		<div id="chp2">
+			<h2>chapitre 2</h2>
+			<p>
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae sed recusandae, obcaecati dolorem vero amet. Sint, accusamus quasi
+				voluptatem id quo architecto error, quisquam quos a perferendis deleniti earum officia?
+			</p>
+			<p>
+				Dolore voluptates non consequatur praesentium ratione nobis, vitae nostrum voluptatum cum pariatur odio nemo quisquam aut provident
+				consectetur quidem possimus rem quae aperiam perferendis quo, facilis voluptas ipsa cupiditate? Placeat?
+			</p>
+			<p>
+				Hic in accusamus accusantium, eos explicabo suscipit laborum ea temporibus soluta iste, aut expedita? Iste soluta ullam voluptatum
+				ipsum sit voluptas. Itaque rem quod illum! Sit magnam odit cupiditate reprehenderit.
+			</p>
+			<a href="#sommaire">haut de page</a><br />
+		</div>
+		<div id="chp3">
+			<h2>chapitre 3</h2>
+			<p>
+				Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vitae, quae accusamus unde itaque dolores voluptas voluptatem molestias
+				neque omnis quam sed blanditiis explicabo nulla delectus amet suscipit modi reiciendis autem!
+			</p>
+			<p>
+				Facere culpa dolore facilis placeat odit eius fuga doloremque. Enim, et tempore recusandae magnam, dignissimos officiis modi libero
+				nam illum, voluptates beatae autem! Fuga voluptatem architecto et neque perspiciatis porro?
+			</p>
+			<p>
+				Porro cum, sint, tenetur amet distinctio, molestiae fugiat voluptatibus dolor nihil natus consequatur illo cumque quasi possimus
+				totam. Officiis facilis ad doloremque adipisci natus repellat beatae molestiae id eum consectetur.
+			</p>
+			<a href="#sommaire">haut de page</a><br />
+		</div>
+	<div id="chp4">
+			<h2>chapitre 4</h2>
+			<p>
+				Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit amet ipsa iste nulla, tempora voluptatibus natus odio aut harum
+				repudiandae rem aperiam omnis suscipit nihil repellat fugiat dolorum nemo ullam?
+			</p>
+			<p>
+				Sunt suscipit tenetur excepturi pariatur libero deleniti, explicabo in incidunt. Vitae voluptates expedita nostrum labore dicta
+				dolorem quaerat at nisi pariatur, nemo tenetur corrupti repellat iste beatae dolor. Animi, odio?
+			</p>
+			<p>
+				Eveniet molestiae, illo aliquam quas enim commodi exercitationem? Numquam, optio cumque, porro voluptatibus id quasi aliquid
+				perspiciatis delectus repellat ad harum laudantium eos in ratione. Dolorem nulla sed molestias illum.
+			</p>
+			<a href="#sommaire">haut de page</a><br />
+		</div>
+		<div id="chp5">
+			<h2>chapitre 5</h2>
+			<p>
+				Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa hic quisquam repellat, earum voluptatum dolorum est facere
+				necessitatibus quod assumenda asperiores ut amet beatae officia, consequuntur reiciendis corrupti? Magnam, quo!
+			</p>
+			<p>
+				Quos voluptate eius, quis nesciunt molestiae illum praesentium explicabo cumque hic tempore sed odit, corrupti facere veritatis
+				necessitatibus quisquam placeat esse optio. Eum quibusdam commodi reiciendis unde quos labore maiores.
+			</p>
+			<p>
+				Aliquid a tempora suscipit repellat fuga facilis accusantium iusto quae nihil, vitae facere libero saepe nemo? Iusto quasi vel
+				asperiores delectus mollitia nihil maiores at, voluptatum, aliquid nesciunt, officiis aut!
+			</p>
+			<a href="#sommaire">haut de page</a><br />
+		</div>
+		<div id="chp6">
+			<h2>chapitre 6</h2>
+			<p>
+				Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores corrupti numquam sint, dolore repudiandae consequatur quibusdam
+				ducimus incidunt fugit modi dolor ipsa quisquam totam eum ipsam labore autem eius quos?
+			</p>
+			<p>
+				Dolores perspiciatis, iure necessitatibus fuga dolorum assumenda veniam. Magnam in reiciendis error quis voluptatem, praesentium fugit
+				dicta earum asperiores esse harum fugiat alias expedita nostrum sint ad atque doloremque! Ipsum!
+			</p>
+			<p>
+				Omnis excepturi dolor asperiores necessitatibus vitae? Ipsum esse odit labore! Amet, minima et obcaecati esse molestias assumenda.
+				Magnam, tempora dignissimos vitae, facere repellat similique, quas odit culpa voluptatibus totam id!
+			</p>
+			<a href="#sommaire">haut de page</a><br />
+		</div>
+		<div id="chp7">
+			<h2>chapitre 7</h2>
+			<p>
+				Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur, debitis. Officiis reprehenderit consectetur at, nam facilis ab,
+				rerum reiciendis nisi quo soluta consequatur autem facere tempore tenetur iure magni accusamus?
+			</p>
+			<p>
+				Vitae enim laboriosam consequuntur, commodi quis ipsa quia facilis iure! Voluptatum obcaecati saepe ipsam minima maxime non blanditiis
+				quas nulla incidunt. Voluptatibus, rem architecto? Totam adipisci praesentium atque natus maxime!
+			</p>
+			<p>
+				Assumenda, quae dolore maiores ut ipsam blanditiis distinctio saepe at accusamus! Blanditiis dignissimos ab, aperiam sapiente quos ea.
+				Nemo nobis possimus laboriosam sunt illo beatae. Nobis ipsam vero reiciendis voluptates!
+			</p>
+			<a href="#sommaire">haut de page</a><br />
+		</div>
+		<div id="chp8">
+			<h2>chapitre 8</h2>
+			<p>
+				Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti in fugit maiores. Aliquid consequuntur deserunt, cupiditate nostrum
+				nobis id eaque tenetur similique molestiae omnis esse vel velit sed labore rem!
+			</p>
+			<p>
+				Exercitationem, iste minus? Repellat reprehenderit minus esse, quae rerum eveniet vitae perspiciatis sed officia corporis labore eius
+				quas accusamus eaque modi fuga tempora porro. Voluptate magnam eveniet sapiente ab ut.
+			</p>
+			<p>
+				Ea cupiditate dolorum, temporibus voluptates aliquid voluptate. Facere alias et accusantium, nobis quibusdam inventore quam
+				consequatur iure in necessitatibus ut iusto! Iure, commodi? Voluptatum quod quaerat ullam perferendis minus voluptas.
+			</p>
+			<a href="#sommaire">haut de page</a><br />
+		</div>
+		<div id="chp9">
+			<h2>chapitre 9</h2>
+			<p>
+				Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sed expedita atque repellendus saepe laudantium amet velit praesentium
+				impedit commodi. Totam soluta cum ut beatae itaque dolores, harum molestiae velit incidunt.
+			</p>
+			<p>
+				Ipsa quo tenetur accusamus voluptates sint, nostrum consequatur adipisci, laudantium recusandae quisquam ad aut ipsum in debitis!
+				Veritatis impedit molestiae dolor et iste cum temporibus similique, sapiente quo placeat odit?
+			</p>
+			<p>
+				Aliquam, in amet voluptatem repudiandae ea unde, mollitia optio illum perspiciatis alias laboriosam quaerat dolor expedita minima
+				sapiente itaque sint quibusdam blanditiis hic! Cum nihil neque eum quam asperiores. Assumenda!
+			</p>
+			<a href="#sommaire">haut de page</a><br />
+		</div>
+		<div id="chp10">
+			<h2>chapitre 10</h2>
+			<p>
+				Lorem ipsum dolor sit, amet consectetur adipisicing elit. Libero similique aut in quo ducimus magnam quibusdam perspiciatis delectus
+				est iure distinctio necessitatibus iusto, aliquid, aperiam repellat autem nemo enim saepe.
+			</p>
+			<p>
+				Adipisci aliquid vel eaque animi, consectetur assumenda. Nulla, inventore dolorem mollitia corporis necessitatibus ex aliquam quis et,
+				at nostrum laboriosam tempora cumque ipsum nisi? Totam aliquam molestias pariatur ea. Tempore!
+			</p>
+			<p>
+				At, quam! Doloremque dolores quod impedit optio quis nisi vel sapiente adipisci, tempora, voluptatem, odio dolor! Asperiores
+				accusantium, totam iure modi sint eaque quia numquam corrupti, facere cumque optio quaerat.
+			</p>
+			<a href="#sommaire">haut de page</a><br />
+		</div>
+	</body>
+</html>
+chapitres.html
+10 KB
+
+mise en page
+decoupage et repartition des elements
+mise en fomr e definition de styles
+
+div aspect bloc
+span 
+
+!!!!par default les balises semantiques n'apportent aucun visuel a leur apparance a leur documents elle ne donnent que du sens a ce dernier!!!!!
+
+
+
+
+
+

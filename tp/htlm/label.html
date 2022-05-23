@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="fr">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<meta name="keywords" content="cours html, dev web" />
+		<meta name="description" content="Le meilleur site pour les tuto web" />
+		<title>Cours HTML</title>
+		<style>
+			body {
+				width: 80%;
+				margin: 0 auto;
+			}
+		</style>
+	</head>
+	<body style="background: silver">
+		<h1>Votre réservation d'hotel</h1>
+		<h2>* champs obligatorires</h2>
+		<br /><br /><br />
+		<form action="" method="post" enctype="multipart/form-data">
+			<label for="nom">Votre nom* :</label>
+			<input type="text" name="nom" id="nom" placeholder="nom de famille" /><br /><br />
+
+			<label for="prenom">Prénom* :</label>
+			<input type="text" name="prenom" id="prenom" placeholder="prénom" /><br /><br />
+
+			<label for="tel">Tel* :</label>
+			<input type="tel" name="tel" id="tel" placeholder="Num de tel à 10 chiffres" /><br /><br />
+
+			<label for="mail">Adresse mail* :</label>
+			<input type="email" name="mail" id="mail" placeholder="login@domaine.extension" /><br /><br />
+
+			<label for="ville">Ville* :</label>
+			<select name="ville" id="ville">
+				<option value="">Veuillez choisir</option>
+				<option value="paris">Paris</option>
+				<option value="lille">Lille</option>
+				<option value="marseille">Marseille</option></select
+			><br /><br />
+
+			<label for="date">Date d'arrivée* :</label>
+			<input type="date" name="date" id="date" /><br /><br />
+
+			<label for="nb">Nombre de personnes* :</label>
+			<input type="number" name="nb" id="nb" min="1" max="100" value="1" /><br /><br />
+
+			<label for="choix">Vos options</label><br />
+			<input type="checkbox" name="choix" id="clim" value="clim" /> Climatisation
+			<input type="checkbox" name="choix" id="bar" value="bar" /> Mini bar
+			<input type="checkbox" name="choix" id="jacuzzi" value="jacuzzi" /> Jacuzzi <br /><br />
+
+			<label for="msg">Ajouter un commentaire : </label>
+			<textarea name="msg" id="msg" cols="30" rows="10">Ajouter un commentaire</textarea><br /><br />
+
+			<label for="cgv">Acceptation des CGV* : </label>
+			<input type="radio" name="cgv" id="oui" value="oui" /> OUI <input type="radio" name="cgv" id="non" value="non" /> NON <br /><br />
+
+			<input type="submit" value="Valider" />
+			<input type="reset" value="Réinitialiser" />
+
+			<br /><br /><br /><br /><br /><br />
+		</form>
+	</body>
+</html>
